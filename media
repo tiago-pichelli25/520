@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+
+Nota1 = int(input('AV1: '))
+Nota2 = int(input('AV2: '))
+
+media = (Nota1 + Nota2) / 2
+
+if media >= 7:
+    print('Media {}, Aprovado'.format(media))
+elif media > 3:
+    print('Media {}, Recuperacao'.format(media))
+else:
+    print('Media {}, Reprovado'.format(media))

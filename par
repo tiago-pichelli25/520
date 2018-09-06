@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+
+numeros = [12, 52, 587, 658, 525, 10, 15, 16]
+
+par = []
+for x in numeros:
+    if x % 2 == 0:
+        par.append(x) 
+print(par)

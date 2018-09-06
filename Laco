@@ -1,0 +1,7 @@
+#!/usr/bin/python3
+x = 1
+num = int(input('Digite um numero: '))
+while x < num: 
+    if x % 2 == 0:
+        continue
+    print('Numero: {}'.format(x))

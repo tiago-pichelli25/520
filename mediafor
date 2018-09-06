@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+
+notas = int(input("Definir numero de notas:"))
+soma = 0
+for x in range (notas):
+    nota = int(input("digite n:{}".format(x+1)))
+    soma += nota
+media = nota / notas
+if media >= 7:
+    print('media {}, notas'.format(media))
+
